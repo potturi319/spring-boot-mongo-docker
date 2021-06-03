@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   springboot:
-    image: 960900102087.dkr.ecr.us-east-2.amazonaws.com/spring-boot-mongo:Bulid
+    image: 960900102087.dkr.ecr.us-east-2.amazonaws.com/spring-boot-mongo:Build
     restart: always # This will be ignored if we deploy in docker swarm
     environment:
     - MONGO_DB_HOSTNAME=mongo
